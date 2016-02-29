@@ -23,7 +23,7 @@ Download the example plugin:
 PACKAGE_NAME_DIR='com/thescheideggers/xjcpluginexample'
 mkdir -p src/main/java/${PACKAGE_NAME_DIR}
 wget -P src/main/java/${PACKAGE_NAME_DIR} \
-   https://raw.githubusercontent.com/wdschei/xjc-plugin-example/master/src/java/com/thescheideggers/xjcpluginexample/XJCPluginExample.java
+   https://raw.githubusercontent.com/wdschei/xjc-plugin-example/master/src/main/java/com/thescheideggers/xjcpluginexample/XJCPluginExample.java
 ```
 
 Update the package name of the downloaded example:
