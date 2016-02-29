@@ -54,7 +54,7 @@ Build the new XJC Plugin Example:
 gradle clean unversionedJar build
 ```
 
-To use the locally built plugin with the gradle-jaxb-plugin, add the following to the `build.gradle`:
+To use the locally built plugin with the [gradle-jaxb-plugin](https://github.com/rackerlabs/gradle-jaxb-plugin) v2.1.0+, add the following to the `build.gradle`:
 ``` ruby
 repositories {
     flatDir { dirs '../xjc-plugin-example/build/libs' } // gradle unversionedJar
